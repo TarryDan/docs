@@ -95,13 +95,20 @@ Most fields are optional. The required fields have a red border.
 
 #### Parent Products
 
-There are two kinds of products. **Products** and **Parent Products**. A parent product is a normal product that has other products connected to it. In this example *Chocolate* has both *Milk Chocolate* and *Dark Chocolate* connected to it. This can be used to make sure you never run out of chocolate, if you are only concerned that you have some kind of chocolate at home, but not what kind, but you want to keep track of if it is dark or milk. It might matter for a recipe. A parent product can be used as a normal product, that is you can have one pack of any kind of chocolate, *Chololate*, five packs of *Milk Chocolate* and four packs of *Dark Chocolate*. The parent product will show the sum of itself and the child products ("sub products") as seen in the picture below:
+There are two kinds of products. **Products** and **Parent Products**. A parent product is a normal product that has other products connected to it. In this example *Chocolate* has both *Milk Chocolate* and *Dark Chocolate* connected to it. This can be used to make sure you never run out of chocolate, if you are only concerned that you have some kind of chocolate at home, but not what kind, but you want to keep track of if it is dark or milk. It might matter for a recipe. A parent product can be used as a normal product, that is you can have one pack of any kind of chocolate, *Chololate*, five packs of *Milk Chocolate* and four packs of *Dark Chocolate*. 
+
+A similar use is for grouping the same foods but from different brands (a Parent Product 'chocolate bar' with children which are the names of different chocolate types you buy)
+
+The parent product will show the sum of itself and the child products ("sub products") as seen in the picture below:
 
 ![Parent product example](/images/parentproductexample.png)
 
 Another way to use parent products can be for different package sizes.
 Example, you want to have eggs at home, but sometimes you buy eggs in a pack of 6 and sometimes in a pack of 12. Then you could have Egg as a parent product and 2 child products, *Egg - pack of 6* and *Egg - pack of 12*. In a recipe you could then add the parent product.
 
+A third way is more conceptual. You could create *Salad* as a Parent Product, and have as children (lettuce, cucumber, tomato); or *Mid Morning Lunchbox Snack* and set as children (boiled egg, chocolate bar, nut packet). 
+
+If you want to count children as whether or not the parent is in stock, in the Parent Product creation screen, choose **accumulate sub products min. stock amount**. If you set a min stock amount, Grocy will add *Mid Morning Lunch Snack* to the shopping list whenever you are totally out of snack options, but will count snacks as in stock if you have any possible option.
 
 ### Locations
 
